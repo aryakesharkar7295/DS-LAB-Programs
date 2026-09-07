@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class student
+{
+public:
+string name ;
+int roll no;
+float marks;
+
+void main()
+{
+cout<<"Name of Student:"<<name<<endl;
+cout<<"rollno of student:"<<rollno<<endl;
+cout<<"marks of student:"<<marks<<endl;
+int main()
+{
+student S1;
+S1.name="ishan awasti";
+S1.rollno=36;
+S1.marks=404;
+S1.display();
+return 0;
+}
