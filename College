@@ -1,1 +1,26 @@
+#include<iostream>
+using namespace std;
+class Box
+{
+public:
+int length;
+int breadth;
+int height;
+void area()
+int a;
+a=length*breadth*height;
+cout<<"Area of box"<<a;
+}
+};
+int main()
+{
+Box B1:
+B1.length=2;
+B1.breadth=3;
+B1.height4;
 
+B1.area();
+
+return 0;
+
+}
